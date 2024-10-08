@@ -3,7 +3,7 @@ using Casino;
 using Casino.TwentyOne;
 
 
-// Twenty One Game
+// TwentyOne Game
 namespace TwentyOne
 {
     class Program
