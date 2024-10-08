@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Casino
 {
-    // Struct
+    // Struct Card
     public struct Card
     {
         public Suit Suit {  get; set; }
