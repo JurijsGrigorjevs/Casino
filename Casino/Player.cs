@@ -9,10 +9,10 @@ namespace Casino
     public class Player
     {
         // Constructor chaining
-        public Player(string name) : this(name, 100)
-        {
+        //public Player(string name) : this(name, 100)
+        //{
 
-        }
+        //}
 
 
 
@@ -29,6 +29,11 @@ namespace Casino
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+
+        //GUIDs(Globally Unique Identifiers)
+        public Guid Id {get; set; }
+
+
 
         public bool Bet(int amount)
         {

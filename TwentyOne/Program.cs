@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Casino;
 using Casino.TwentyOne;
 
@@ -12,11 +13,14 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             // Constructor chaining
-            var newDictionary = new Dictionary<string, string>();
+            //var newDictionary = new Dictionary<string, string>();
             //Player newPlayer = new Player("Jurijs");
-            var newPlayer = new Player("Jurijs");
+            //var newPlayer = new Player("Jurijs");
             const string casinoName = "Grand Hotel and Casino";
 
+            // GUIDs (Globally Unique Identifiers)
+            //Guid identifier = new Guid();
+            //Guid identifier = Guid.NewGuid();
 
 
 
@@ -31,6 +35,20 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya") 
             {
                 Player player = new Player(playerName, bank);
+
+
+
+                //GUIDs(Globally Unique Identifiers)
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Public\Casino\log_text_test\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
+
+
+
+
+
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
