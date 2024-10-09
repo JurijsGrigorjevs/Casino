@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Casino;
 using Casino.TwentyOne;
 
@@ -10,7 +11,15 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            
+            // Constructor chaining
+            var newDictionary = new Dictionary<string, string>();
+            //Player newPlayer = new Player("Jurijs");
+            var newPlayer = new Player("Jurijs");
+            const string casinoName = "Grand Hotel and Casino";
+
+
+
+
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
 

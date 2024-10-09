@@ -17,3 +17,4 @@ C:\Users\Public\Casino TwentyOne\Casino\TwentyOne\obj\Debug\TwentyOne.csproj.Cor
 C:\Users\Public\Casino TwentyOne\Casino\TwentyOne\obj\Debug\TwentyOne.csproj.Up2Date
 C:\Users\Public\Casino TwentyOne\Casino\TwentyOne\obj\Debug\TwentyOne.exe
 C:\Users\Public\Casino TwentyOne\Casino\TwentyOne\obj\Debug\TwentyOne.pdb
+C:\Users\Public\Casino TwentyOne\Casino\TwentyOne\bin\Debug\Casino.dll
