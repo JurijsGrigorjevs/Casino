@@ -16,7 +16,7 @@ namespace TwentyOne
             //var newDictionary = new Dictionary<string, string>();
             //Player newPlayer = new Player("Jurijs");
             //var newPlayer = new Player("Jurijs");
-            const string casinoName = "Grand Hotel and Casino";
+            //const string casinoName = "Grand Hotel and Casino";
 
             // GUIDs (Globally Unique Identifiers)
             //Guid identifier = new Guid();
