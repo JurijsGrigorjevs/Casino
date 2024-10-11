@@ -61,6 +61,7 @@ namespace TwentyOne
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
+                // Try/catch
                 while (player.isActivelyPlaying && player.Balance > 0)
                 {
                     try
